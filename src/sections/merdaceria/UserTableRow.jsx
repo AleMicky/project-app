@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 import {useState} from 'react';
 import {useTheme} from '@mui/material/styles';
 import {Checkbox, TableRow, TableCell, MenuItem} from '@mui/material';
-import Iconify from '../../components/Iconify';
 import {TableMoreMenu} from '../../components/table';
+import Iconify from "../../components/iconify";
 
 
 MercaderiaTableRow.propTypes = {
