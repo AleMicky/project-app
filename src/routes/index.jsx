@@ -17,7 +17,7 @@ export default function Router() {
         {
             path: '/',
             children: [
-                {element: <Navigate to="/login" replace/>, index: true},
+                {element: <Navigate to="/dashboard/mercaderia/list" replace/>, index: true},
                 {
                     path: 'login',
                     element: (
